@@ -5,6 +5,13 @@ h1{
 
 #mail {width: 3vh}
 
+.back-img3{
+    background-image: url('./bbq.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .back-img4 {
     background-image: url('./cheesecake.jpg');
     background-size: cover;
