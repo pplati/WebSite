@@ -10,24 +10,49 @@
 <link rel="stylesheet" href="style.css">
  
 <body>
-    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand"><em>Devie's Fine Dining</em></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="onlineReservation.html">Online Reservation</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="nav-link" href="#contact">Contact us</a>
+            </span>
+          </div>
+        </div>
+      </nav>
+    <nav>
         <h1 class="text-center" ><em>Devie's Fine Dining</em></h1>
-    </header>
+
     <br>
     <br>
 
 
-    <div class="container">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                <div class="carousel-item active">
+    <div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide d-flex " data-bs-ride="carousel">
+                <div class="carousel-inner container">
+                <div class="carousel-item active container">
                 <img src="https://t4.ftcdn.net/jpg/02/94/26/33/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg" class="d-block w-75" alt="Image of the reasturant">
                 </div>
-                <div class="carousel-item">
-                <img src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=" class="d-block w-50" alt="Image of our food">
+                <div class="carousel-item container">
+                <img src="https://www.foodandwine.com/thmb/rFDG6yFeXodJqOJ3pmJWJuNSuAc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/schweinebraten-FT-RECIPE0221-f52d935bd2204d958fd436825fbea562.jpg" class="d-block w-50" alt="Image of our food">
                 </div>
-                <div class="carousel-item">
-                <img src="https://media.istockphoto.com/id/1370926806/photo/fried-thin-pancakes-crepe-stuffed-potato-with-herring-fish-in-plate.jpg?s=612x612&w=0&k=20&c=BzjR-G_AALo-E8ODdIvGXoVMphTgl0RHuVxd4BQaZxs=" class="d-block w-50" alt="Image of our food">
+                <div class="carousel-item container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf53Ge53v3p2uf03AzPkiKc8pgsG31NxcApQ&s" class="d-block w-50" alt="Image of our food">
                 </div>
                 </div>
             </div>
@@ -35,27 +60,22 @@
     <br>
     <br>
 
-   <main class="text-center">
+   <main class="text-center"> <em>
     We look foreward to welcoming you to our restaurant and offer you our excellent dishes.
     Devie's Fine Dining story begins in 2002. Chef Kapsis started the restaurant with the vision of creating fine food lorem ipsum dolor sit, amet consectetur adipisicing elit.
     Autem blanditiis dicta, deleniti placeat, ab maiores nisi ea dolorem commodi, recusandae officiis necessitatibus delectus. Eum voluptate et, dolorem itaque voluptatibus non.<br> <br> <br>
-    
+    </em>
    </main>
 
-   <section>
-    <ul>
-        <li> <a href="./menu.html">Menu</a> </li>
-        <li> <a href="./onlineReservation.html">Online Reservation</a> </li>
-    </ul>
-   </section>
 
-   <footer>Contanct us
-    <ul>
-        <li>Tel 2109836578</li> <br>
-        <li>Email info@devies.gr</li><br>
 
-        <address>Kifisias 99, Marousi</address>
-    </ul>
+   <footer  class="text-primary p-3 mb-2 bg-light text-dark" id="contact">Contanct us:
+    <address class="text-secondary container"><em>You can find us at 99 Kifisias Avenue, Marousi</em></address>
+
+    <ul class="list-unstyled container text-secondary"><em>
+        <li><img id="tel" src="https://media.istockphoto.com/id/1180028723/vector/phone-with-waves-symbol-icon-black-simple-isolated-vector-stock-illustration.jpg?s=612x612&w=0&k=20&c=0t-EGRLmVQvE6gDdbAw3XWm0G84ODOkYG_HnUrJM09I=" alt="phone"> 2109836578</li>
+        <li><img id="mail" src="https://logowik.com/content/uploads/images/513_email.jpg" alt="email"> info@devies.gr</li><br>
+    </em></ul>
    </footer>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

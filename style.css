@@ -1,3 +1,13 @@
 h1{
     font-family: "Lucida Handwriting";
 }
+#tel{width: 3vh}
+
+#mail {width: 3vh}
+
+section {
+    font-size: large;
+}
+section a {
+    text-decoration: none;
+}
